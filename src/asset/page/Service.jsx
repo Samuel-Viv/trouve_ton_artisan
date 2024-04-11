@@ -2,27 +2,27 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import Rating from "../utilitaire/Rating";
-import ArtisansBatiment from "../data/artisans.json";
+import ArtisansServices from "../data/artisans.json";
 
-import "../css/categorie.css"
+import "../css/categorie.css";
 
-function Batiment() {
-  const [batimentArtisans, setBatimentArtisans] = useState([]);
+function Services() {
+  const [servicesArtisans, setServicesArtisans] = useState([]);
 
   useEffect(() => {
-    const filteredArtisans = ArtisansBatiment.filter((artisan) => artisan.category === "Bâtiment");
-    setBatimentArtisans(filteredArtisans);
+    const filteredArtisans = ArtisansServices.filter((artisan) => artisan.category === "Services");
+    setServicesArtisans(filteredArtisans);
   }, []);
 
   return (
     <div>
       <main>
         <div className="container">
-          <h3 className="mx-5">Artisans du Bâtiment</h3>
+          <h3 className="mx-5">Préstation de Services</h3>
 
           <div className="row">
             <div className="categorie">
-            {batimentArtisans.map((artisan) => (
+            {servicesArtisans.map((artisan) => (
               <div className="artisan-cards col-md-6" key={artisan.id}>
                 <div  className="card my-2">
                   <h4 className="my-3">{artisan.name}</h4>
@@ -54,4 +54,4 @@ function Batiment() {
   );
 }
 
-export default Batiment;
+export default Services;

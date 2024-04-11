@@ -1,14 +1,14 @@
-.card {
+.categorie .card {
   padding-left: 20px;
   position: initial;
 }
-.card .ligne {
+.categorie .card .ligne {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-right: 50px;
 }
-.card .button-container {
+.categorie .card .button-container {
   display: flex;
   justify-content: center;
 }/*# sourceMappingURL=categorie.css.map */
