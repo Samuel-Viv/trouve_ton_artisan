@@ -1,14 +1,14 @@
-.categorie .card {
+.artisan-cards .card {
   padding-left: 20px;
   position: initial;
 }
-.categorie .card .ligne {
+.artisan-cards .card .ligne {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-right: 50px;
 }
-.categorie .card .button-container {
+.artisan-cards .card .button-container {
   display: flex;
   justify-content: center;
 }/*# sourceMappingURL=categorie.css.map */
