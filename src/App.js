@@ -6,7 +6,7 @@ import Home from "./asset/page/Home";
 import Batiment from './asset/page/Batiment';
 import Services from './asset/page/Service';
 import Fabrication from "./asset/page/fabrication"
-
+import Alimentation from './asset/page/Alimentation'
 function App() {
   return (
     <div className="App">
@@ -17,6 +17,7 @@ function App() {
       <Route path="/Batiment" element={<Batiment/>}></Route>
       <Route path="/Services" element={<Services/>}></Route>
       <Route path="/Fabrication" element={<Fabrication/>}></Route>
+      <Route path="/Alimentation" element={<Alimentation/>}></Route>
       </Routes>
     </div>
   );

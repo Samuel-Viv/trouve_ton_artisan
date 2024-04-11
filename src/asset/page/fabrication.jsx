@@ -21,7 +21,7 @@ function Fabrication() {
           <h3 className="mx-5">Préstation de Services</h3>
 
           <div className="row">
-            <div className="categorie">
+            
             {fabricationArtisans.map((artisan) => (
               <div className="artisan-cards col-md-6" key={artisan.id}>
                 <div  className="card my-2">
@@ -46,7 +46,7 @@ function Fabrication() {
                 </div>
               </div>
             ))}
-            </div>
+            
           </div>
         </div>
       </main>

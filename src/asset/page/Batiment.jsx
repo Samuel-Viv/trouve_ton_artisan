@@ -21,7 +21,7 @@ function Batiment() {
           <h3 className="mx-5">Artisans du Bâtiment</h3>
 
           <div className="row">
-            <div className="categorie">
+            
             {batimentArtisans.map((artisan) => (
               <div className="artisan-cards col-md-6" key={artisan.id}>
                 <div  className="card my-2">
@@ -46,7 +46,7 @@ function Batiment() {
                 </div>
               </div>
             ))}
-            </div>
+            
           </div>
         </div>
       </main>
