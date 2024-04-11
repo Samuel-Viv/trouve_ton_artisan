@@ -18,7 +18,7 @@ function Alimentation() {
     <div>
       <main>
         <div className="container">
-          <h3 className="mx-5">Artisans du Bâtiment</h3>
+          <h3 className="mx-5">Artisans dans l'Alimentaire</h3>
 
           <div className="row">
             
