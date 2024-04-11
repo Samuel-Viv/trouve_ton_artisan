@@ -5,6 +5,7 @@ import Header from "./asset/component/Header";
 import Home from "./asset/page/Home";
 import Batiment from './asset/page/Batiment';
 import Services from './asset/page/Service';
+import Fabrication from "./asset/page/fabrication"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/" element={<Home/>}></Route>
       <Route path="/Batiment" element={<Batiment/>}></Route>
       <Route path="/Services" element={<Services/>}></Route>
+      <Route path="/Fabrication" element={<Fabrication/>}></Route>
       </Routes>
     </div>
   );
