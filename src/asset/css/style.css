@@ -37,4 +37,27 @@ header nav .navbar-nav .nav-link {
 }
 header nav .navbar-nav .nav-link:hover {
   color: #00497c;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Graphik-bold, sans-serif;
+  color: #00497c;
+}
+
+h4 {
+  color: #0074c7;
+}
+
+h2,
+h3,
+h4 {
+  font-family: Graphik-Medium, sans-serif;
+}
+
+p,
+li {
+  font-family: Graphik-Regular, sans-serif;
+  font-size: 1.1rem;
 }/*# sourceMappingURL=style.css.map */
