@@ -8,6 +8,7 @@ import Services from './asset/page/Service';
 import Fabrication from "./asset/page/fabrication"
 import Alimentation from './asset/page/Alimentation';
 import ArtisanDetail from './asset/page/ArtisanDetail';
+import SearchResult from './asset/page/SearchResults';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
       <Route path="/Fabrication" element={<Fabrication/>}></Route>
       <Route path="/Alimentation" element={<Alimentation/>}></Route>
       <Route path="/artisan/:id" element={<ArtisanDetail/>}></Route>
+      <Route path="/search-results" element={<SearchResult/>}></Route>
       </Routes>
     </div>
   );

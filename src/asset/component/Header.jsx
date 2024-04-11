@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Recherche from './Recherche';
 import Logo from "../images/Logo.png";
 import "../css/style.css"
 
@@ -42,6 +42,7 @@ function Header(){
                   Alimentation
                 </Link>
 
+                <Recherche></Recherche>
               </div>
             </div>
           </div>
