@@ -9,6 +9,7 @@ import Fabrication from "./asset/page/fabrication"
 import Alimentation from './asset/page/Alimentation';
 import ArtisanDetail from './asset/page/ArtisanDetail';
 import SearchResult from './asset/page/SearchResults';
+import NoFound from './asset/page/NoFound';
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
       <Route path="/Alimentation" element={<Alimentation/>}></Route>
       <Route path="/artisan/:id" element={<ArtisanDetail/>}></Route>
       <Route path="/search-results" element={<SearchResult/>}></Route>
+      <Route path="*" element={<NoFound/>}></Route>
       </Routes>
     </div>
   );
