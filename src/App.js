@@ -6,7 +6,8 @@ import Home from "./asset/page/Home";
 import Batiment from './asset/page/Batiment';
 import Services from './asset/page/Service';
 import Fabrication from "./asset/page/fabrication"
-import Alimentation from './asset/page/Alimentation'
+import Alimentation from './asset/page/Alimentation';
+import ArtisanDetail from './asset/page/ArtisanDetail';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       <Route path="/Services" element={<Services/>}></Route>
       <Route path="/Fabrication" element={<Fabrication/>}></Route>
       <Route path="/Alimentation" element={<Alimentation/>}></Route>
+      <Route path="/artisan/:id" element={<ArtisanDetail/>}></Route>
       </Routes>
     </div>
   );
