@@ -23,7 +23,6 @@ function ArtisanDetail() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Envoyer les données du formulaire au serveur ici
-    console.log(formData); // Pour le débogage
     // Réinitialiser le formulaire après l'envoi
     setFormData({ name: "", objet: "", message: "" });
     setFormSubmitted(true);

@@ -78,4 +78,9 @@ li {
 }
 .barre-recherche button:hover {
   background-color: #00497c;
+}
+
+.img-error {
+  width: 50vh;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
