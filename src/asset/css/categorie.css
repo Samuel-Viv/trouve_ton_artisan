@@ -5,6 +5,7 @@
 .artisan-cards .card .ligne {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-right: 50px;
 }
