@@ -10,15 +10,16 @@ main .row {
   padding: 2rem;
 }
 main .row .presentation {
-  padding: 20;
+  text-align: justify;
 }
 main .row .etape {
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  text-align: justify;
 }
 main .row .etape .red {
-  margin-top: 2rem;
   width: 3rem;
   height: 0.6rem;
   background-color: #cd2c2e;
@@ -31,6 +32,7 @@ main .row .pourquoi {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  text-align: justify;
 }
 main .row .pourquoi .green {
   width: 3rem;

@@ -51,11 +51,11 @@ function ArtisanDetail() {
           </p>
           <p>Localisation: {artisan.location}</p>
           <p>E-mail: {artisan.email}</p>
-          <p>Description: {artisan.about}</p>
-          <p>Site Web: {artisan.website}</p>
+          <p>A propos: {artisan.about}</p>
+          <p>Site Web: <a href="">{artisan.website}</a></p>
 
           <p className="text-center">
-            Pour contacter cette entreprise veuillez remplir le formulaire de contact qui ce trouve
+            Pour contacter cette entreprise veuillez remplir le formulaire de contact qui se trouve
             ci-dessous.
           </p>
         </div>
