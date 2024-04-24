@@ -21,6 +21,12 @@ function Home() {
     setTopArtisans(topArtisansData);
   }, []);
 
+  //sécurité
+  // Empêche l'affichage du clic droit
+  const handleContextMenu = (e) => {
+    e.preventDefault(); 
+  };
+
   return (
     <div>
       <main>
@@ -78,13 +84,13 @@ function Home() {
                 </p>
               </div>
               <div className="col-md-6 d-flex justify-content-center">
-                <img src={Patissier} alt="Un patissier qui pétrie une pâte" className="img-fluid" />
+                <img src={Patissier} alt="Un patissier qui pétrie une pâte" onContextMenu={handleContextMenu} className="img-fluid" />
               </div>
             </div>
 
             <div className="pourquoi ">
               <div className="col-md-6 d-flex justify-content-center my-3">
-                <img src={Menuisier} alt="Un menuisiser" className="img-fluid" />
+                <img src={Menuisier} alt="Un menuisiser" onContextMenu={handleContextMenu} className="img-fluid" />
               </div>
 
               <div className="col-md-6">
